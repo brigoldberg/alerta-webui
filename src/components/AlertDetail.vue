@@ -565,6 +565,24 @@
                     </div>
                   </div>
                 </div>
+
+
+                <div class="flex xs12 ma-1">
+                  <div class="d-flex align-top">
+                    <div class="flex xs3 text-xs-left">
+                      <div class="grey--text">
+                        Email Link
+                      </div>
+                    </div>
+                    <div class="flex xs6 text-xs-left">
+                      <div>
+                        <a v-bind:href="'http://alerta.jsi.jefco.com/alert_display?alert_id=' + item.id" target="_blank">{{ item.id}}</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
                 <div class="flex xs12 ma-1">
                   <div class="d-flex align-top">
                     <div class="flex xs3 text-xs-left">
